@@ -5,4 +5,8 @@
     - name: install apache2
       apt:
         name: "{{mywebpackonububt}}"
-        state: absent
+        state: present 
+    - name: install ngnix
+      apt:
+        name: "{{ngnixonubuntu}}"
+        state: started
