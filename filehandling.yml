@@ -4,5 +4,5 @@
   tasks:
    - name: create a file on server\
      file:
-      path: /home/ubuntu/new.txt
+      path: /home/lakshmi/new.txt
       state: touch
