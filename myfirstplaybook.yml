@@ -6,7 +6,7 @@
       apt:
         name: "{{mywebpackonububt}}"
         state: present 
-    - name: install ngnix
+    - name: install nginx
       apt:
         name: "{{ngnixonubuntu}}"
-        state: started
+        state: present
