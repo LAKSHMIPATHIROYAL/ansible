@@ -1,0 +1,16 @@
+---
+- hosts: 172.31.40.205
+  become: yes
+  vars:
+    myvar1: git
+    myvar2: tree
+  tasks:
+   - name: to displaye variav
+     debug:
+      msg: "{{myvar1}}"
+     tags: skip 
+   - name: cjisbv
+     debug:
+      msg: "{{myvar2}}"
+     
+  
