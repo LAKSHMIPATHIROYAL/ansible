@@ -1,0 +1,8 @@
+---
+- hosts: 172.31.40.205
+  become: yes
+  tasks:
+   - name: create a file on server\
+     file:
+      path: /home/ubuntu/new.txt
+      state: touch
