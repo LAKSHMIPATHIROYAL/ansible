@@ -7,7 +7,7 @@
   tasks:
    - name: to displaye variav
      debug:
-      msg: "{{myvar}}"   #given wrng variable and we will ignore this
+      msg: "{{myvar1}}"   #given wrng variable and we will ignore this
      tags: skip 
    - name: cjisbv
      debug:
