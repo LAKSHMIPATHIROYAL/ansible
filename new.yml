@@ -6,7 +6,7 @@
       apt:
         name: "{{mywebpackonububt}}"
         state: present 
-     - name: start apache2
+    - name: start apache2
       service:
          name: "{{mywebpackonububt}}"
          state: started
