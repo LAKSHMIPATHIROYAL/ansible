@@ -11,5 +11,5 @@
      tags: skip 
    - name: cjisbv
      debug:
-      msg: "{{myvar2}}"
+      msg: "{{myvar}}"
      
