@@ -6,11 +6,8 @@
       apt:
         name: "{{mywebpackonububt}}"
         state: present 
-    - name: install nginx
-      apt:
-        name: "{{ngnixonubuntu}}"
-        state: present
-    - name: start nginx
+     - name: start apache2
       service:
-         name: "{{ngnixonubuntu}}"
+         name: "{{mywebpackonububt}}"
          state: started
+    
